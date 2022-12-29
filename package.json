@@ -1,6 +1,6 @@
 {
-	"name": "@partivo/template-engine",
-	"version": "3.0.0",
+	"name": "@partivo/cookie",
+	"version": "1.0.0",
 	"description": "Simple Cookie Parse And Serialize - Node.js",
 	"main": "index.js",
 	"scripts": { "test": "echo 'Error: no test specified'" },
@@ -8,7 +8,7 @@
 		"type": "git",
 		"url": "https://github.com/Partivo/node-cookie.git"
 	},
-	"keywords": [ "template", "engine" ],
+	"keywords": [ "cookie", "parse", "serialize" ],
 	"author": "Partivo",
 	"license": "MIT",
 	"publishConfig": {
