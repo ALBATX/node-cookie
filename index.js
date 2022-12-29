@@ -7,7 +7,7 @@ function isDate(val) {
 function cookie() {}
 
 cookie.parse = function(str) {
-    if (typeof str !== 'string') return;
+    if (typeof str !== 'string') throw new TypeError('argument str must be a string');
 
     var obj = {};
 
