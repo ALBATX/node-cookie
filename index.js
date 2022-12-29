@@ -9,7 +9,6 @@ cookie.parse = function(str) {
         if (eqIdx === -1) break;
 
         var endIdx = str.indexOf(';', index);
-
         if (endIdx === -1) endIdx = str.length;
         else if (endIdx < eqIdx) {
             index = str.lastIndexOf(';', eqIdx - 1) + 1;
