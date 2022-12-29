@@ -64,3 +64,5 @@ cookie.serialize = function(name, val, options) {
 
     return str;
 }
+
+module.exports = cookie;
