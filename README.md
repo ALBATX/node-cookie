@@ -1,4 +1,4 @@
-<h1 align="center">@partivo/template</h1>
+<h1 align="center">@partivo/cookie</h1>
 Simple Cookie Parse And Serialize - Node.js
 
 ## Example Code
