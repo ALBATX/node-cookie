@@ -2,7 +2,6 @@
 Simple Cookie Parse And Serialize - Node.js
 
 ## Example Code
-JavaScript File
 ```js
 import cookie from '@partivo/cookie';
 const parse = cookie.parse(req.headers.cookie);
