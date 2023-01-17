@@ -4,10 +4,9 @@ Simple Cookie Parse And Serialize - Node.js
 ## Example Code
 JavaScript File
 ```js
-import template from '@partivo/template';
-const page = template.renderFile('/usr/local/bin/template/404.html', {
-  hostname: "partivo.net"
-}); // 404.html
+import cookie from '@partivo/cookie';
+const parse = cookie.parse(req.headers.cookie);
+console.log(parse['X-Real-IP']); // 127.0.0.1
 ```
 
 HTML File
