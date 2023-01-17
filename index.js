@@ -30,7 +30,7 @@ module.exports = {
 		return str;
 	},
 
-	parse: function(str) {
+	parse: function(str = '') {
 		var obj = {};
 
 		var index = 0;
